@@ -1,12 +1,11 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "**TypeScript** é um superset para o javaScript,com tipagem forte estática novos recursos e que compila para javaScript puro.",
   "scripts": {
-    "dev": "ts-node-dev --respawn ./src",
-    "start": "node dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "dev": "ts-node-dev --respawn --transpile-only ./src ",
+    "start": "node ./dist",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/odiegosilva1/TypeScript/issues"
   },
