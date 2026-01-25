@@ -16,4 +16,7 @@
      "rootDir": "./src",
       "outDir": "./dist",
 
-  - npm i ts-node-dev -D     
+  - npm i ts-node-dev -D
+
+  ## Scripts
+  - npm run dev     
